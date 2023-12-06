@@ -47,14 +47,14 @@ function TodoList(){
 
             <ul>
                 {
-                        // index는 배열의 값을 조정할 때 사용하기 위해서 넣어둠.
+                    // index는 배열의 값을 조정할 때 사용하기 위해서 넣어둠.
                     todoList.map((todo, index) => (
                             <li key = {index}>
                                 <span style={{textDecoration:todo.isDone ?'line-through' : 'none'}}>{todo.title}</span>
                                 <button onClick={() => handleToggleTodo(index)}>{todo.isDone ? '미완료' : '완료'}</button>
                                 <button onClick={() => handleDeleteTodo(index)}>삭제</button>
                             </li>
-                        ))
+                    ))
                 }
             </ul>
 

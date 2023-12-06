@@ -8,6 +8,7 @@ import Exam5 from './component/Exam5';
 import Exam6_1 from './component/Exam6_1';
 import Exam6_2 from './component/Exam6_2';
 import TodoList from './component/TodoList';
+import SpringFront from './component/SpringFront';
 
 function App() {
   return (
@@ -28,7 +29,10 @@ function App() {
 
       {/* <Exam6_2 /> */}
 
-      <TodoList />
+      {/* <TodoList /> */}
+
+
+      <SpringFront />
       
       {/*
       <header className="App-header">
